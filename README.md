@@ -1,7 +1,13 @@
 # IoU Maps
+#### Spatial maps of segmentation metrics (mIoU, per class IoU, and Dice) from hurricane imagery.
+----
+When developing a segmentation model, one is often asked how well a model works. Quantitative metrics like Intersection-over-Union and Dice score can be used to give a sense of the model performance, as can visually examining the model outputs. 
 
-Develop spatial maps of segmentation metrics (mIoU, per class IoU, and Dice) from hurricane imagery.
+For segmentation of geospatial imagery, each image is linked to an actual place. The goal of this repository is to look at quantitative metrics in geographic space to determine if a model works better in some physical places vs others. 
 
+The imagery comes from NOAA, and is taken after Hurricanes or large storms. The imagery is segmented into 4 classes; water, sand, vegetation, and human development (roads, buildings, etc). 
+
+__Notebooks:__
 
 Examine segmentation model output: Model_example-Output.ipynb 
 
