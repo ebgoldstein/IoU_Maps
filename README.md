@@ -7,6 +7,9 @@ For segmentation of geospatial imagery, each image is linked to an actual place.
 
 The imagery comes from NOAA, and is taken after Hurricanes or large storms. The imagery is segmented into 4 classes; water, sand, vegetation, and human development (roads, buildings, etc). 
 
+![image](https://user-images.githubusercontent.com/5330599/195084180-7130aa6e-6f92-4923-87ab-e86f1c10743b.png)
+
+
 __Notebooks:__
 
 Examine segmentation model output: Model_example-Output.ipynb 
