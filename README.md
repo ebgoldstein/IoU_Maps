@@ -18,6 +18,6 @@ Calculate mIoU and mDice for all labeled images: MetricsForAll_TV.ipynb
 
 Make TF model to predict metrics (IoU, Dice) from image by cutting off UNet decoder, freezing encoder, and add dense layers: MetricsModel.ipynb
 
-Predict metrics for all NOAA images: **coming soon**
+Predict metrics for all NOAA images: Metrics_Predict_all.ipynb
 
-Visualize metrics for all NOAA images: **coming soon**
+Visualize metrics for all NOAA images: this is currently done with kepler.gl
