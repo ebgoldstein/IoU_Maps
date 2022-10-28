@@ -14,10 +14,14 @@ __Notebooks:__
 
 Examine segmentation model output: Model_example-Output.ipynb 
 
-Calculate mIoU and mDice for all labeled images: MetricsForAll_TV.ipynb
+Calculate mIoU and mDice for all labeled Training and Val images: MetricsForAll_TV.ipynb
+
+Calculate mIoU and mDice for all labeled Testing images: MetricsForAll_Testing.ipynb
 
 Make TF model to predict metrics (IoU, Dice) from image by cutting off UNet decoder, freezing encoder, and add dense layers: MetricsModel.ipynb
 
 Predict metrics for all NOAA images: Metrics_Predict_all.ipynb
+
+Predict metrics for Test set images: Metrics_Predict_Test.ipynb
 
 Visualize metrics for all NOAA images: this is currently done with kepler.gl
